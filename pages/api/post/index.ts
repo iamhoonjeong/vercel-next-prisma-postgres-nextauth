@@ -1,7 +1,7 @@
 import { getSession } from 'next-auth/react';
 import { getServerSession } from 'next-auth/next';
 import prisma from '../../../lib/prisma';
-import { options } from 'pages/api/auth/[...nextauth]';
+import { options } from '../auth/[...nextauth]';
 
 // POST /api/post
 // Required fields in body: title
